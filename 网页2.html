@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>动画示例</title>
+    <style>
+        @keyframes myAnimation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .animated-element {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 50px;
+            animation: myAnimation 3s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-element"></div>
+</body>
+</html>
